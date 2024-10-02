@@ -420,7 +420,11 @@ body{
     outline: none;           
     border-color: rgb(56, 145, 223);    
 }
-
+.form button:hover{
+    background-color:rgb(44, 86, 51);
+    color:#2d2d2d;
+    font-weight: bold;
+}
 footer{
     width:100%;
     color:white;

@@ -1,0 +1,400 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.haf1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.arrow {
+    cursor: pointer;
+}
+
+.section {
+    display: flex;
+    align-items: center;
+}
+
+.home {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.edit-part {
+    margin: 20px 0;
+}
+
+.buts-3 {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.buts {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.buts:hover {
+    background-color: #0056b3;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.search input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.search svg {
+    margin-left: 10px;
+    cursor: pointer;
+}
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h1, h4, h5, h6 {
+    margin: 0;
+}
+
+p {
+    margin: 10px 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Modules Section */
+.modules {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.t1 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.t1 h5 {
+    margin-right: 10px;
+    display: inline;
+}
+
+.t1 h6 {
+    font-weight: normal;
+    color: #888;
+}
+
+/* Icons Styles */
+.icons, .icons2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.i1 {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+.i1:hover {
+    background-color: #e0e0e0;
+}
+
+.i1 div {
+    margin-right: 10px;
+}
+
+.i1 p {
+    margin: 0;
+}
+
+/* Form Styles */
+.form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.form div {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="email"],
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button[type="Submit"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type="Submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Banner Styles */
+.banner {
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.banner .para {
+    margin-top: 10px;
+}
+
+/* Topic Styles */
+.topic {
+    display: flex;
+    flex-direction: column;
+}
+
+.matter {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.form {
+    width: 300px; /* Fixed width for the form */
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .topic {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .form {
+        width: 100%; /* Full width on smaller screens */
+    }
+}
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h1, h4, h5, h6 {
+    margin: 0;
+}
+
+p {
+    margin: 10px 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Modules Section */
+.modules {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.t1 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.t1 h5 {
+    margin-right: 10px;
+    display: inline;
+}
+
+.t1 h6 {
+    font-weight: normal;
+    color: #888;
+}
+
+/* Icons Styles */
+.icons, .icons2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.i1 {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+.i1:hover {
+    background-color: #e0e0e0;
+}
+
+.i1 div {
+    margin-right: 10px;
+}
+
+.i1 p {
+    margin: 0;
+}
+
+/* Form Styles */
+.form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.form div {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="email"],
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button[type="Submit"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type="Submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Banner Styles */
+.banner {
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.banner .para {
+    margin-top: 10px;
+}
+
+/* Topic Styles */
+.topic {
+    display: flex;
+    flex-direction: column;
+}
+
+.matter {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.form {
+    width: 300px; /* Fixed width for the form */
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .topic {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .form {
+        width: 100%; /* Full width on smaller screens */
+    }
+}
