@@ -332,13 +332,14 @@ body{
     font-size:30px;
     padding-top:30px;
     width:700px;
-    
+    grid-area:ban;
     align-items: center;
     padding-left:300px;
     font-weight: bold;
     color:rgb(8, 62, 124);
 
 }
+
 .topic{
     width:100%;
     display: flex;
